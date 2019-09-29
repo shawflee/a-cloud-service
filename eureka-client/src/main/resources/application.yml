@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: provider
+server:
+  port: 8010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+  #是否将当前服务的ip注册到注册中心
+  instance:
+    prefer-ip-address: true

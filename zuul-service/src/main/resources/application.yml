@@ -1,0 +1,13 @@
+server:
+  port: 8030
+spring:
+  application:
+    name: zuul-gateway-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+zuul:
+  #probider是别名，后面的是访问路由映射
+  routes:
+    provider: /p/**

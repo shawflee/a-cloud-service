@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configclient
+  #配置文件名字拼接起来即configclient-dev
+  profiles:
+    active: dev
+  cloud:
+    config:
+      #配置中心地址
+      uri: http://localhost:8070
+      #设置客户端优先判断Config Server获取是否正常
+      fail-fast: true

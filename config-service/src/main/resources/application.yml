@@ -1,0 +1,14 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: config-service
+  #本地读取配置文件
+  profiles:
+    active: native
+  #本地配置文件存放路径
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared
