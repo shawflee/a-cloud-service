@@ -19,6 +19,10 @@
         <module>hystrix-service</module>
         <module>config-service</module>
         <module>config-client</module>
+        <module>git-config-service</module>
+        <module>git-config-client</module>
+        <module>zipkin-service</module>
+        <module>zipkin-client</module>
     </modules>
 
     <parent>

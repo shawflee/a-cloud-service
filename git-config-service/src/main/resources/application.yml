@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/shawflee/a-cloud-service.git
+          search-paths: config
+          username: li823311847@gmail.com
+          password: 18926302231Lxf
+      label: master
+eureka:
+  client:
+     serviceUrl:
+       defaultZone: http://localhost:8000/eureka/

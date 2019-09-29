@@ -12,9 +12,13 @@
         <module name="eureka-client" />
         <module name="eureka-service" />
         <module name="feign-service" />
+        <module name="git-config-client" />
+        <module name="git-config-service" />
         <module name="hystrix-service" />
         <module name="rest-template" />
         <module name="ribbon-service" />
+        <module name="zipkin-client" />
+        <module name="zipkin-service" />
         <module name="zuul-service" />
       </profile>
     </annotationProcessing>
@@ -26,9 +30,13 @@
       <module name="eureka-client" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="feign-service" target="1.8" />
+      <module name="git-config-client" target="1.8" />
+      <module name="git-config-service" target="1.8" />
       <module name="hystrix-service" target="1.8" />
       <module name="rest-template" target="1.8" />
       <module name="ribbon-service" target="1.8" />
+      <module name="zipkin-client" target="1.8" />
+      <module name="zipkin-service" target="1.8" />
       <module name="zuul-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
