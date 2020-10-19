@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      name: thread-test
+      lable: master
+      discovery:
+        enabled: true
+        service-id: config-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@106.15.95.28:8000/eureka/
